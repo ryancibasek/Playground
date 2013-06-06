@@ -2,7 +2,7 @@ Playground
 ==========
 
 <<<<<<< HEAD
-Test Repo, testing testing!
+Test Repo, here I am!
 =======
 My Awesome Repo
 
