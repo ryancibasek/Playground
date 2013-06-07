@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+@using TestApp1.Models;
+@model User
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>@Model.Name</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>@Model.Password</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>@Model.Email</td>
+                </tr>
+                @Html.EditorFor(x => x.Address)
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
